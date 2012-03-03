@@ -1,0 +1,927 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', 'socket.io-client' ]
+info using npm@1.1.0-3
+info using node@v0.6.10
+verbose config file /root/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/lib64/node_modules/npm/npmrc
+verbose caching /gutsy/package.json
+verbose loadDefaults gutsy@0.0.1
+verbose caching /gutsy/node_modules/express/package.json
+verbose loadDefaults express@2.5.8
+verbose caching /gutsy/node_modules/underscore/package.json
+verbose loadDefaults underscore@1.3.1
+verbose caching /gutsy/node_modules/logmagic/package.json
+verbose loadDefaults logmagic@0.1.4
+verbose caching /gutsy/node_modules/elementtree/package.json
+verbose loadDefaults elementtree@0.1.1
+verbose caching /gutsy/node_modules/async/package.json
+verbose loadDefaults async@0.1.18
+verbose caching /gutsy/node_modules/wordwrap/package.json
+verbose loadDefaults wordwrap@0.0.2
+verbose caching /gutsy/node_modules/sprintf/package.json
+verbose loadDefaults sprintf@0.1.1
+verbose caching /gutsy/node_modules/connect/package.json
+verbose loadDefaults connect@1.7.3
+verbose caching /gutsy/node_modules/whiskey/package.json
+verbose loadDefaults whiskey@0.6.7
+verbose caching /gutsy/node_modules/request/package.json
+verbose loadDefaults request@2.2.9
+verbose caching /gutsy/node_modules/optimist/package.json
+verbose loadDefaults optimist@0.2.8
+verbose caching /gutsy/node_modules/jade/package.json
+verbose loadDefaults jade@0.20.3
+verbose from cache /gutsy/package.json
+verbose cache add [ 'socket.io-client', null ]
+silly cache add: name, spec, args [ undefined, 'socket.io-client', [ 'socket.io-client', null ] ]
+verbose parsed url { pathname: 'socket.io-client',
+verbose parsed url   path: 'socket.io-client',
+verbose parsed url   href: 'socket.io-client' }
+verbose addNamed [ 'socket.io-client', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'socket.io-client', '', false ]
+verbose raw, before any munging socket.io-client
+verbose url resolving [ 'https://registry.npmjs.org/', './socket.io-client' ]
+verbose url resolved https://registry.npmjs.org/socket.io-client
+verbose etag "6NSRW13T6ZBEAU7D9MQKYBHR"
+http GET https://registry.npmjs.org/socket.io-client
+http 304 https://registry.npmjs.org/socket.io-client
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"6NSRW13T6ZBEAU7D9MQKYBHR"',
+silly get cb     date: 'Sat, 03 Mar 2012 20:28:29 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag socket.io-client from cache
+silly name, range, hasData 2 [ 'socket.io-client', '', true ]
+silly versions [ 'socket.io-client',
+silly versions   [ '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2',
+silly versions     '0.7.3',
+silly versions     '0.7.4',
+silly versions     '0.7.5',
+silly versions     '0.7.9',
+silly versions     '0.7.10',
+silly versions     '0.7.11',
+silly versions     '0.8.0',
+silly versions     '0.8.1',
+silly versions     '0.8.2',
+silly versions     '0.8.3',
+silly versions     '0.8.4',
+silly versions     '0.8.5',
+silly versions     '0.8.6',
+silly versions     '0.8.7',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.1-1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0c-v83.9.7-linux-x64-2.6.37.6-0.9-desktop',
+verbose bin dist   { shasum: '54a396e8e22ab7ec4800266e074518612e2f4aa9',
+verbose bin dist     tarball: 'http://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.1-1.tgz' } ]
+verbose caching /root/.npm/socket.io-client/0.9.1-1/package/package.json
+verbose loadDefaults socket.io-client@0.9.1-1
+silly resolved [ { name: 'socket.io-client',
+silly resolved     description: 'Socket.IO client for the browser and node.js',
+silly resolved     version: '0.9.1-1',
+silly resolved     main: './lib/io.js',
+silly resolved     browserify: './dist/socket.io.js',
+silly resolved     homepage: 'http://socket.io',
+silly resolved     keywords: [ 'websocket', 'socket', 'realtime', 'socket.io', 'comet', 'ajax' ],
+silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' },
+silly resolved        { name: 'Arnout Kazemier', email: 'info@3rd-eden.com' },
+silly resolved        { name: 'Vladimir Dronnikov', email: 'dronnikov@gmail.com' },
+silly resolved        { name: 'Einar Otto Stangvik', email: 'einaros@gmail.com' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/LearnBoost/socket.io-client.git' },
+silly resolved     dependencies: 
+silly resolved      { 'uglify-js': '1.2.5',
+silly resolved        ws: '0.4.x',
+silly resolved        xmlhttprequest: '1.2.2',
+silly resolved        'active-x-obfuscator': '0.0.1' },
+silly resolved     devDependencies: 
+silly resolved      { expresso: '*',
+silly resolved        express: '2.5.x',
+silly resolved        jade: '*',
+silly resolved        stylus: '*',
+silly resolved        'socket.io': '0.9.1-1',
+silly resolved        'socket.io-client': '0.9.1-1' },
+silly resolved     engines: { node: '>= 0.4.0' },
+silly resolved     _id: 'socket.io-client@0.9.1-1',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.0-3',
+silly resolved     _nodeVersion: 'v0.6.10',
+silly resolved     _defaultsLoaded: true,
+silly resolved     scripts: {} } ]
+info into /gutsy socket.io-client@0.9.1-1
+info installOne socket.io-client@0.9.1-1
+info unbuild /gutsy/node_modules/socket.io-client
+verbose from cache /root/.npm/socket.io-client/0.9.1-1/package/package.json
+verbose mkdir (expected) error ENOENT, no such file or directory '/gutsy/node_modules/___socket.io-client.npm'
+verbose mkdir done: /gutsy/node_modules/___socket.io-client.npm 755
+verbose unpack_ uid, gid [ 0, 0 ]
+verbose unpackTarget /gutsy/node_modules/socket.io-client
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/History.md
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/README.md
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/package.json
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/Makefile
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/.npmignore
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/dist
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/dist/socket.io.min.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/dist/WebSocketMain.swf
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/dist/WebSocketMainInsecure.swf
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/dist/socket.io.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/bin
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/bin/builder.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/test
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/test/events.test.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/test/util.test.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/test/io.test.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/test/worker.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/test/parser.test.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/test/socket.test.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/test/node
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/test/node/builder.common.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/test/node/builder.test.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/json.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/parser.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/socket.io-client.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/namespace.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/util.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/transport.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/io.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/events.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/socket.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/transports
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/transports/websocket.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/transports/flashsocket.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/transports/xhr-polling.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/transports/htmlfile.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/transports/xhr.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/transports/jsonp-polling.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/README.md
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/sample.html
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/swfobject.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/WebSocketMain.swf
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/.npmignore
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/web_socket.js
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/WebSocketMainInsecure.zip
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/IWebSocketLogger.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/WebSocket.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/WebSocketMain.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/build.sh
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/WebSocketEvent.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/WebSocketMainInsecure.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/gsolo
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/gsolo/encryption
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/gsolo/encryption/MD5.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/adobe
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/adobe/net
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/adobe/net/proxies
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/adobe/net/proxies/RFC2817Socket.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/math
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/math/IReduction.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/math/ClassicReduction.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/math/MontgomeryReduction.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/math/BigInteger.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/math/BarrettReduction.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/math/NullReduction.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/math/bi_internal.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/Crypto.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/SHA224Test.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/RSAKeyTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/ARC4Test.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/ITestHarness.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/ECBModeTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/BigIntegerTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/TLSPRFTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/SHA1Test.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CFBModeTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/AESKeyTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/TestCase.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/BlowFishKeyTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/HMACTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/XTeaKeyTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CTRModeTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/MD5Test.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CBCModeTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/SHA256Test.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CFB8ModeTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/DESKeyTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/OFBModeTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/TripleDESKeyTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/MD2Test.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IMode.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/BlowFishKey.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/DESKey.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CFB8Mode.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IVMode.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CFBMode.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/ISymmetricKey.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/dump.txt
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CBCMode.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/TLSPad.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/NullPad.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/TripleDESKey.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IStreamCipher.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/ICipher.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/ECBMode.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/XTeaKey.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/SimpleIVMode.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/OFBMode.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CTRMode.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IPad.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/PKCS5.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/SSLPad.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/AESKey.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/aeskey.pl
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/rsa
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/rsa/RSAKey.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/ARC4.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/TLSPRF.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/IPRNG.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/Random.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHABase.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHA256.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHA224.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/IHash.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHA1.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/HMAC.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/MD5.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/MD2.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/MAC.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/IHMAC.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/X509CertificateCollection.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/MozillaRootCertificates.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/X509Certificate.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSSocket.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/IConnectionState.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/MACs.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/KeyExchanges.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/SSLSecurityParameters.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSTest.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSSecurityParameters.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSConfig.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/CipherSuites.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSConnectionState.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSEngine.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSSocketEvent.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/SSLEvent.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSError.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/SSLConnectionState.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/ISecurityParameters.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSEvent.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/BulkCiphers.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/Base64.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/ArrayUtil.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/Memory.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/Hex.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/ObjectIdentifier.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/ByteString.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/UTCTime.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Type.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/OID.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/PrintableString.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/PEM.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Set.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/DER.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Integer.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/IAsn1Type.as
+silly asyncMap in gTP /gutsy/node_modules/___socket.io-client.npm/package/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Sequence.as
+verbose gunzed /gutsy/node_modules/___socket.io-client.npm/package
+verbose rm'ed /gutsy/node_modules/socket.io-client
+verbose renamed [ '/gutsy/node_modules/___socket.io-client.npm/package',
+verbose renamed   '/gutsy/node_modules/socket.io-client' ]
+verbose caching /gutsy/node_modules/socket.io-client/package.json
+verbose loadDefaults socket.io-client@0.9.1-1
+info preinstall socket.io-client@0.9.1-1
+verbose from cache /gutsy/node_modules/socket.io-client/package.json
+verbose cache add [ 'uglify-js@1.2.5', null ]
+silly cache add: name, spec, args [ undefined, 'uglify-js@1.2.5', [ 'uglify-js@1.2.5', null ] ]
+verbose parsed url { pathname: 'uglify-js@1.2.5',
+verbose parsed url   path: 'uglify-js@1.2.5',
+verbose parsed url   href: 'uglify-js@1.2.5' }
+silly cache add: name, spec, args [ 'uglify-js', '1.2.5', [ 'uglify-js', '1.2.5' ] ]
+verbose parsed url { pathname: '1.2.5', path: '1.2.5', href: '1.2.5' }
+verbose addNamed [ 'uglify-js', '1.2.5' ]
+verbose addNamed [ '1.2.5', '1.2.5' ]
+verbose raw, before any munging uglify-js/1.2.5
+verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js/1.2.5' ]
+verbose url resolved https://registry.npmjs.org/uglify-js/1.2.5
+verbose etag "10TIW2AD4EPZ9TRWT84W9MNFE"
+http GET https://registry.npmjs.org/uglify-js/1.2.5
+verbose cache add [ 'ws@0.4.x', null ]
+silly cache add: name, spec, args [ undefined, 'ws@0.4.x', [ 'ws@0.4.x', null ] ]
+verbose parsed url { pathname: 'ws@0.4.x', path: 'ws@0.4.x', href: 'ws@0.4.x' }
+silly cache add: name, spec, args [ 'ws', '0.4.x', [ 'ws', '0.4.x' ] ]
+verbose parsed url { pathname: '0.4.x', path: '0.4.x', href: '0.4.x' }
+verbose addNamed [ 'ws', '0.4.x' ]
+verbose addNamed [ null, '>=0.4.0- <0.5.0-' ]
+silly name, range, hasData [ 'ws', '>=0.4.0- <0.5.0-', false ]
+verbose cache add [ 'xmlhttprequest@1.2.2', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'xmlhttprequest@1.2.2',
+silly cache add: name, spec, args   [ 'xmlhttprequest@1.2.2', null ] ]
+verbose parsed url { pathname: 'xmlhttprequest@1.2.2',
+verbose parsed url   path: 'xmlhttprequest@1.2.2',
+verbose parsed url   href: 'xmlhttprequest@1.2.2' }
+silly cache add: name, spec, args [ 'xmlhttprequest', '1.2.2', [ 'xmlhttprequest', '1.2.2' ] ]
+verbose parsed url { pathname: '1.2.2', path: '1.2.2', href: '1.2.2' }
+verbose addNamed [ 'xmlhttprequest', '1.2.2' ]
+verbose addNamed [ '1.2.2', '1.2.2' ]
+verbose cache add [ 'active-x-obfuscator@0.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'active-x-obfuscator@0.0.1',
+silly cache add: name, spec, args   [ 'active-x-obfuscator@0.0.1', null ] ]
+verbose parsed url { pathname: 'active-x-obfuscator@0.0.1',
+verbose parsed url   path: 'active-x-obfuscator@0.0.1',
+verbose parsed url   href: 'active-x-obfuscator@0.0.1' }
+silly cache add: name, spec, args [ 'active-x-obfuscator',
+silly cache add: name, spec, args   '0.0.1',
+silly cache add: name, spec, args   [ 'active-x-obfuscator', '0.0.1' ] ]
+verbose parsed url { pathname: '0.0.1', path: '0.0.1', href: '0.0.1' }
+verbose addNamed [ 'active-x-obfuscator', '0.0.1' ]
+verbose addNamed [ '0.0.1', '0.0.1' ]
+verbose raw, before any munging ws
+verbose url resolving [ 'https://registry.npmjs.org/', './ws' ]
+verbose url resolved https://registry.npmjs.org/ws
+verbose etag "9E7P01HVAVXNU13Z0R0ASOR06"
+http GET https://registry.npmjs.org/ws
+verbose raw, before any munging xmlhttprequest/1.2.2
+verbose url resolving [ 'https://registry.npmjs.org/', './xmlhttprequest/1.2.2' ]
+verbose url resolved https://registry.npmjs.org/xmlhttprequest/1.2.2
+verbose etag "BUN96IQWOEDKOW9GN6N27JIW2"
+http GET https://registry.npmjs.org/xmlhttprequest/1.2.2
+verbose raw, before any munging active-x-obfuscator/0.0.1
+verbose url resolving [ 'https://registry.npmjs.org/', './active-x-obfuscator/0.0.1' ]
+verbose url resolved https://registry.npmjs.org/active-x-obfuscator/0.0.1
+verbose etag "774YYI2D7S4CQLB21K5ZMOJY2"
+http GET https://registry.npmjs.org/active-x-obfuscator/0.0.1
+http 304 https://registry.npmjs.org/ws
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"9E7P01HVAVXNU13Z0R0ASOR06"',
+silly get cb     date: 'Sat, 03 Mar 2012 20:28:30 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag ws from cache
+silly name, range, hasData 2 [ 'ws', '>=0.4.0- <0.5.0-', true ]
+silly versions [ 'ws',
+silly versions   [ '0.2.6',
+silly versions     '0.2.8',
+silly versions     '0.2.9',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.2',
+silly versions     '0.3.3',
+silly versions     '0.3.4',
+silly versions     '0.3.4-2',
+silly versions     '0.3.5',
+silly versions     '0.3.5-2',
+silly versions     '0.3.5-3',
+silly versions     '0.3.5-4',
+silly versions     '0.3.6',
+silly versions     '0.3.7',
+silly versions     '0.3.8',
+silly versions     '0.3.9',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.4.2',
+silly versions     '0.4.3',
+silly versions     '0.4.5',
+silly versions     '0.4.6',
+silly versions     '0.4.7',
+silly versions     '0.4.8' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0c-v83.9.7-linux-x64-2.6.37.6-0.9-desktop',
+verbose bin dist   { shasum: 'f52dc246ca1cb8adde0947e2dd4646363989bcc1',
+verbose bin dist     tarball: 'http://registry.npmjs.org/ws/-/ws-0.4.8.tgz' } ]
+http 304 https://registry.npmjs.org/active-x-obfuscator/0.0.1
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"774YYI2D7S4CQLB21K5ZMOJY2"',
+silly get cb     date: 'Sat, 03 Mar 2012 20:28:30 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag active-x-obfuscator/0.0.1 from cache
+http 304 https://registry.npmjs.org/xmlhttprequest/1.2.2
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"BUN96IQWOEDKOW9GN6N27JIW2"',
+silly get cb     date: 'Sat, 03 Mar 2012 20:28:30 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag xmlhttprequest/1.2.2 from cache
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/root/.npm/ws/0.4.8/package/package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching /root/.npm/ws/0.4.8/package/package.json
+verbose loadDefaults ws@0.4.8
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0c-v83.9.7-linux-x64-2.6.37.6-0.9-desktop',
+verbose bin dist   { shasum: '089b89b37145ff1d9ec74af6530be5526cae1f1a',
+verbose bin dist     tarball: 'http://registry.npmjs.org/active-x-obfuscator/-/active-x-obfuscator-0.0.1.tgz' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0c-v83.9.7-linux-x64-2.6.37.6-0.9-desktop',
+verbose bin dist   { shasum: 'e8875bdb13af7c22b04cbb034caadf8ff22676a3',
+verbose bin dist     tarball: 'http://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.2.2.tgz' } ]
+verbose caching /root/.npm/active-x-obfuscator/0.0.1/package/package.json
+verbose loadDefaults active-x-obfuscator@0.0.1
+verbose caching /root/.npm/xmlhttprequest/1.2.2/package/package.json
+verbose loadDefaults xmlhttprequest@1.2.2
+http 304 https://registry.npmjs.org/uglify-js/1.2.5
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"10TIW2AD4EPZ9TRWT84W9MNFE"',
+silly get cb     date: 'Sat, 03 Mar 2012 20:28:30 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag uglify-js/1.2.5 from cache
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl1.0.0c-v83.9.7-linux-x64-2.6.37.6-0.9-desktop',
+verbose bin dist   { shasum: 'b542c2c76f78efb34b200b20177634330ff702b6',
+verbose bin dist     tarball: 'http://registry.npmjs.org/uglify-js/-/uglify-js-1.2.5.tgz' } ]
+verbose caching /root/.npm/uglify-js/1.2.5/package/package.json
+verbose loadDefaults uglify-js@1.2.5
+silly resolved [ { author: 
+silly resolved      { name: 'Einar Otto Stangvik',
+silly resolved        email: 'einaros@gmail.com',
+silly resolved        url: 'http://2x.io' },
+silly resolved     name: 'ws',
+silly resolved     description: 'simple to use, blazing fast and thoroughly tested websocket client, server and console for node.js, up-to-date against RFC-6455',
+silly resolved     version: '0.4.8',
+silly resolved     repository: { type: 'git', url: 'git://github.com/einaros/ws.git' },
+silly resolved     bin: { wscat: './bin/wscat' },
+silly resolved     scripts: { test: 'make test', preinstall: 'make' },
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     dependencies: { commander: '0.5.0', options: 'latest' },
+silly resolved     devDependencies: 
+silly resolved      { mocha: '0.8.x',
+silly resolved        should: '0.4.2',
+silly resolved        benchmark: '0.3.x',
+silly resolved        tinycolor: '0.x',
+silly resolved        ansi: 'latest' },
+silly resolved     _id: 'ws@0.4.8',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.0-3',
+silly resolved     _nodeVersion: 'v0.6.10',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { author: 
+silly resolved      { name: 'Felix Geisendörfer',
+silly resolved        email: 'felix@debuggable.com',
+silly resolved        url: 'http://debuggable.com/' },
+silly resolved     name: 'active-x-obfuscator',
+silly resolved     description: 'A module to (safely) obfuscate all occurrences of the string \'ActiveX\' inside any JavaScript code.',
+silly resolved     version: '0.0.1',
+silly resolved     homepage: 'https://github.com/felixge/node-active-x-obfuscator',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/felixge/node-active-x-obfuscator.git' },
+silly resolved     main: './index',
+silly resolved     scripts: { test: 'node test.js' },
+silly resolved     engines: { node: '*' },
+silly resolved     dependencies: { zeparser: '0.0.5' },
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _id: 'active-x-obfuscator@0.0.1',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.0-3',
+silly resolved     _nodeVersion: 'v0.6.10',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'xmlhttprequest',
+silly resolved     description: 'XMLHttpRequest for Node',
+silly resolved     version: '1.2.2',
+silly resolved     author: { name: 'Dan DeFelippi' },
+silly resolved     licenses: [ { type: 'MIT', url: 'http://creativecommons.org/licenses/MIT/' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/driverdan/node-XMLHttpRequest.git' },
+silly resolved     engine: [ 'node >=0.4.0' ],
+silly resolved     main: './XMLHttpRequest.js',
+silly resolved     _id: 'xmlhttprequest@1.2.2',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.0-3',
+silly resolved     _nodeVersion: 'v0.6.10',
+silly resolved     _defaultsLoaded: true,
+silly resolved     scripts: {} },
+silly resolved   { name: 'uglify-js',
+silly resolved     description: 'JavaScript parser and compressor/beautifier toolkit',
+silly resolved     author: 
+silly resolved      { name: 'Mihai Bazon',
+silly resolved        email: 'mihai.bazon@gmail.com',
+silly resolved        url: 'http://mihai.bazon.net/blog' },
+silly resolved     version: '1.2.5',
+silly resolved     main: './uglify-js.js',
+silly resolved     bin: { uglifyjs: './bin/uglifyjs' },
+silly resolved     repository: { type: 'git', url: 'git@github.com:mishoo/UglifyJS.git' },
+silly resolved     _id: 'uglify-js@1.2.5',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.0-3',
+silly resolved     _nodeVersion: 'v0.6.10',
+silly resolved     _defaultsLoaded: true,
+silly resolved     scripts: {} } ]
+info into /gutsy/node_modules/socket.io-client ws@0.4.8
+info into /gutsy/node_modules/socket.io-client active-x-obfuscator@0.0.1
+info into /gutsy/node_modules/socket.io-client xmlhttprequest@1.2.2
+info into /gutsy/node_modules/socket.io-client uglify-js@1.2.5
+info installOne ws@0.4.8
+info installOne active-x-obfuscator@0.0.1
+info installOne xmlhttprequest@1.2.2
+info installOne uglify-js@1.2.5
+info unbuild /gutsy/node_modules/socket.io-client/node_modules/ws
+info unbuild /gutsy/node_modules/socket.io-client/node_modules/active-x-obfuscator
+info unbuild /gutsy/node_modules/socket.io-client/node_modules/xmlhttprequest
+info unbuild /gutsy/node_modules/socket.io-client/node_modules/uglify-js
+verbose from cache /root/.npm/ws/0.4.8/package/package.json
+verbose from cache /root/.npm/active-x-obfuscator/0.0.1/package/package.json
+verbose from cache /root/.npm/xmlhttprequest/1.2.2/package/package.json
+verbose from cache /root/.npm/uglify-js/1.2.5/package/package.json
+verbose mkdir (expected) error ENOENT, no such file or directory '/gutsy/node_modules/socket.io-client/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/gutsy/node_modules/socket.io-client/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/gutsy/node_modules/socket.io-client/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/gutsy/node_modules/socket.io-client/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/gutsy/node_modules/socket.io-client/node_modules/___ws.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/gutsy/node_modules/socket.io-client/node_modules/___xmlhttprequest.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm'
+verbose mkdir done: /gutsy/node_modules/socket.io-client/node_modules/___ws.npm 755
+verbose mkdir done: /gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm 755
+verbose mkdir done: /gutsy/node_modules/socket.io-client/node_modules/___xmlhttprequest.npm 755
+verbose mkdir done: /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm 755
+verbose unpack_ uid, gid [ 0, 0 ]
+verbose unpackTarget /gutsy/node_modules/socket.io-client/node_modules/ws
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ 0, 0 ]
+verbose unpackTarget /gutsy/node_modules/socket.io-client/node_modules/active-x-obfuscator
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ 0, 0 ]
+verbose unpackTarget /gutsy/node_modules/socket.io-client/node_modules/xmlhttprequest
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ 0, 0 ]
+verbose unpackTarget /gutsy/node_modules/socket.io-client/node_modules/uglify-js
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___xmlhttprequest.npm/package
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___xmlhttprequest.npm/package/XMLHttpRequest.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___xmlhttprequest.npm/package/README.md
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___xmlhttprequest.npm/package/package.json
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___xmlhttprequest.npm/package/demo.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___xmlhttprequest.npm/package/autotest.watchr
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___xmlhttprequest.npm/package/tests
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___xmlhttprequest.npm/package/tests/test-request.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___xmlhttprequest.npm/package/tests/test-headers.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___xmlhttprequest.npm/package/tests/test-constants.js
+verbose gunzed /gutsy/node_modules/socket.io-client/node_modules/___xmlhttprequest.npm/package
+verbose rm'ed /gutsy/node_modules/socket.io-client/node_modules/xmlhttprequest
+verbose renamed [ '/gutsy/node_modules/socket.io-client/node_modules/___xmlhttprequest.npm/package',
+verbose renamed   '/gutsy/node_modules/socket.io-client/node_modules/xmlhttprequest' ]
+verbose caching /gutsy/node_modules/socket.io-client/node_modules/xmlhttprequest/package.json
+verbose loadDefaults xmlhttprequest@1.2.2
+info preinstall xmlhttprequest@1.2.2
+verbose from cache /gutsy/node_modules/socket.io-client/node_modules/xmlhttprequest/package.json
+silly resolved []
+verbose about to build /gutsy/node_modules/socket.io-client/node_modules/xmlhttprequest
+info build /gutsy/node_modules/socket.io-client/node_modules/xmlhttprequest
+verbose from cache /gutsy/node_modules/socket.io-client/node_modules/xmlhttprequest/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/gutsy/node_modules/socket.io-client/node_modules' ]
+info linkStuff xmlhttprequest@1.2.2
+verbose linkBins xmlhttprequest@1.2.2
+verbose linkMans xmlhttprequest@1.2.2
+verbose rebuildBundles xmlhttprequest@1.2.2
+info install xmlhttprequest@1.2.2
+info postinstall xmlhttprequest@1.2.2
+verbose installOne cb xmlhttprequest@1.2.2
+silly afterUntar undefined
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm/package
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm/package/test.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm/package/.package.json.un~
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm/package/.test.js.un~
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm/package/..gitignore.un~
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm/package/package.json
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm/package/.index.js.un~
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm/package/.npmignore
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm/package/.Readme.md.un~
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm/package/Readme.md
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm/package/index.js
+verbose gunzed /gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm/package
+verbose rm'ed /gutsy/node_modules/socket.io-client/node_modules/active-x-obfuscator
+verbose renamed [ '/gutsy/node_modules/socket.io-client/node_modules/___active-x-obfuscator.npm/package',
+verbose renamed   '/gutsy/node_modules/socket.io-client/node_modules/active-x-obfuscator' ]
+verbose caching /gutsy/node_modules/socket.io-client/node_modules/active-x-obfuscator/package.json
+verbose loadDefaults active-x-obfuscator@0.0.1
+info preinstall active-x-obfuscator@0.0.1
+verbose from cache /gutsy/node_modules/socket.io-client/node_modules/active-x-obfuscator/package.json
+verbose cache add [ 'zeparser@0.0.5', null ]
+silly cache add: name, spec, args [ undefined, 'zeparser@0.0.5', [ 'zeparser@0.0.5', null ] ]
+verbose parsed url { pathname: 'zeparser@0.0.5',
+verbose parsed url   path: 'zeparser@0.0.5',
+verbose parsed url   href: 'zeparser@0.0.5' }
+silly cache add: name, spec, args [ 'zeparser', '0.0.5', [ 'zeparser', '0.0.5' ] ]
+verbose parsed url { pathname: '0.0.5', path: '0.0.5', href: '0.0.5' }
+verbose addNamed [ 'zeparser', '0.0.5' ]
+verbose addNamed [ '0.0.5', '0.0.5' ]
+verbose raw, before any munging zeparser/0.0.5
+verbose url resolving [ 'https://registry.npmjs.org/', './zeparser/0.0.5' ]
+verbose url resolved https://registry.npmjs.org/zeparser/0.0.5
+http GET https://registry.npmjs.org/zeparser/0.0.5
+silly afterUntar undefined
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/make.bat
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/History.md
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/README.md
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/wscript
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/package.json
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/.travis.yml
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/Makefile
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/.npmignore
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/index.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/bench
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/bench/speed.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/bench/util.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/bench/sender.benchmark.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/bench/parser.benchmark.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/lib
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/lib/Validation.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/lib/Sender.hixie.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/lib/WebSocket.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/lib/ValidationWindows.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/lib/BufferUtil.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/lib/WebSocketServer.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/lib/Receiver.hixie.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/lib/BufferUtilWindows.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/lib/Receiver.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/lib/ErrorCodes.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/lib/Sender.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/lib/BufferPool.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/src
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/src/bufferutil.cc
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/src/validation.cc
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/bin
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/bin/wscat
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/Validation.test.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/hybi-common.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/Receiver.hixie.test.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/Receiver.test.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/autobahn-server.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/testserver.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/Sender.hixie.test.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/autobahn.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/WebSocketServer.test.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/BufferPool.test.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/Sender.test.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/WebSocket.integration.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/WebSocket.test.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/fixtures
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/fixtures/request.pem
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/fixtures/textfile
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/fixtures/key.pem
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/test/fixtures/certificate.pem
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/examples
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/examples/fileapi
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/examples/fileapi/server.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/examples/fileapi/package.json
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/examples/fileapi/.npmignore
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/examples/fileapi/public
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/examples/fileapi/public/app.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/examples/fileapi/public/uploader.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/examples/fileapi/public/index.html
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/examples/serverstats
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/examples/serverstats/server.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/examples/serverstats/package.json
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/examples/serverstats/public
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package/examples/serverstats/public/index.html
+verbose gunzed /gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package
+verbose rm'ed /gutsy/node_modules/socket.io-client/node_modules/ws
+verbose renamed [ '/gutsy/node_modules/socket.io-client/node_modules/___ws.npm/package',
+verbose renamed   '/gutsy/node_modules/socket.io-client/node_modules/ws' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/gutsy/node_modules/socket.io-client/node_modules/ws/package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching /gutsy/node_modules/socket.io-client/node_modules/ws/package.json
+verbose loadDefaults ws@0.4.8
+info preinstall ws@0.4.8
+verbose unsafe-perm in lifecycle false
+silly exec sh "-c" "make"
+silly spawning [ 'sh',
+silly spawning   [ '-c', 'make' ],
+silly spawning   '/gutsy/node_modules/socket.io-client/node_modules/ws' ]
+silly afterUntar undefined
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/package.json~
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/uglify-js.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/README.html
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/package.json
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/docstyle.css
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/.npmignore
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/README.org
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/tmp
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/tmp/app.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/tmp/test.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/tmp/uglify-hangs.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/tmp/269.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/tmp/embed-tokens.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/tmp/liftvars.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/tmp/instrument2.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/tmp/goto2.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/tmp/uglify-hangs2.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/tmp/instrument.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/tmp/goto.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/tmp/hoist.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/lib
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/lib/parse-js.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/lib/process.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/lib/squeeze-more.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/lib/object-ast.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/bin
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/bin/uglifyjs
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/beautify.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/testparser.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/scripts.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/if.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue16.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/array2.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue10.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue34.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/assignment.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue4.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue278.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue9.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue69.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/ifreturn.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue17.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/array3.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue54.1.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue21.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/with.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/whitespace.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue13.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/ifreturn2.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/empty-blocks.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/strict-equals.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/null_string.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue11.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue53.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue50.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/array1.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue20.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/mangle.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/var.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/forstatement.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue30.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/array4.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue25.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue28.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue27.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue68.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/const.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/concatstring.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue29.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue48.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/test/issue14.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/if.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue16.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/array2.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue10.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue34.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/assignment.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue4.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue278.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue9.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue69.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/ifreturn.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue17.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/array3.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue54.1.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue21.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/with.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/whitespace.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue13.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/ifreturn2.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/empty-blocks.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/strict-equals.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/null_string.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue11.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue53.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue50.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/array1.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue20.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/mangle.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/var.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/forstatement.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue30.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/array4.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue25.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue28.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue27.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue68.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/const.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/concatstring.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue29.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue48.js
+silly asyncMap in gTP /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package/test/unit/compress/expected/issue14.js
+verbose gunzed /gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package
+verbose rm'ed /gutsy/node_modules/socket.io-client/node_modules/uglify-js
+verbose renamed [ '/gutsy/node_modules/socket.io-client/node_modules/___uglify-js.npm/package',
+verbose renamed   '/gutsy/node_modules/socket.io-client/node_modules/uglify-js' ]
+verbose caching /gutsy/node_modules/socket.io-client/node_modules/uglify-js/package.json
+verbose loadDefaults uglify-js@1.2.5
+info preinstall uglify-js@1.2.5
+verbose from cache /gutsy/node_modules/socket.io-client/node_modules/uglify-js/package.json
+silly resolved []
+verbose about to build /gutsy/node_modules/socket.io-client/node_modules/uglify-js
+info build /gutsy/node_modules/socket.io-client/node_modules/uglify-js
+verbose from cache /gutsy/node_modules/socket.io-client/node_modules/uglify-js/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/gutsy/node_modules/socket.io-client/node_modules' ]
+info linkStuff uglify-js@1.2.5
+verbose linkBins uglify-js@1.2.5
+verbose bins linking [ { uglifyjs: './bin/uglifyjs' },
+verbose bins linking   '/gutsy/node_modules/socket.io-client/node_modules/.bin',
+verbose bins linking   false ]
+verbose linkMans uglify-js@1.2.5
+verbose rebuildBundles uglify-js@1.2.5
+verbose mkdir (expected) error ENOENT, no such file or directory '/gutsy/node_modules/socket.io-client/node_modules/.bin'
+verbose mkdir done: /gutsy/node_modules/socket.io-client/node_modules/.bin 755
+info install uglify-js@1.2.5
+info postinstall uglify-js@1.2.5
+verbose installOne cb uglify-js@1.2.5
+info ws@0.4.8 Failed to exec preinstall script
+ERR! error installing ws@0.4.8
+info unbuild /gutsy/node_modules/socket.io-client/node_modules/ws
+verbose from cache /gutsy/node_modules/socket.io-client/node_modules/ws/package.json
+info preuninstall ws@0.4.8
+info uninstall ws@0.4.8
+verbose unbuild ws@0.4.8 [ false,
+verbose unbuild ws@0.4.8   '/gutsy/node_modules',
+verbose unbuild ws@0.4.8   '/gutsy/node_modules/socket.io-client/node_modules' ]
+verbose binRoot [ '/gutsy/node_modules/socket.io-client/node_modules/.bin',
+verbose binRoot   { wscat: './bin/wscat' } ]
+info postuninstall ws@0.4.8
+verbose installOne cb ws@0.4.8
+verbose about to build /gutsy/node_modules/socket.io-client
+ERR! error installing socket.io-client@0.9.1-1
+info unbuild /gutsy/node_modules/socket.io-client
+verbose from cache /gutsy/node_modules/socket.io-client/package.json
+info preuninstall socket.io-client@0.9.1-1
+info uninstall socket.io-client@0.9.1-1
+verbose unbuild socket.io-client@0.9.1-1 [ true, '/gutsy/node_modules', '/gutsy/node_modules' ]
+info postuninstall socket.io-client@0.9.1-1
+verbose installOne cb socket.io-client@0.9.1-1
+ERR! ws@0.4.8 preinstall: `make`
+ERR! `sh "-c" "make"` failed with 2
+ERR! 
+ERR! Failed at the ws@0.4.8 preinstall script.
+ERR! This is most likely a problem with the ws package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     make
+ERR! You can get their info via:
+ERR!     npm owner ls ws
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Linux 2.6.37.6-0.9-desktop
+ERR! command "node" "/usr/bin/npm" "install" "socket.io-client"
+ERR! cwd /gutsy
+ERR! node -v v0.6.10
+ERR! npm -v 1.1.0-3
+ERR! code ELIFECYCLE
+ERR! message ws@0.4.8 preinstall: `make`
+ERR! message `sh "-c" "make"` failed with 2
+ERR! errno {}
+verbose exit [ 1, true ]
